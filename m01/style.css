@@ -1,0 +1,60 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+nav {
+	background-color: gold;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 5;
+}
+.nav, a {
+	color: black;
+	font-size: 1.1em;
+	padding: 15px 50px 15px 0px;
+	text-decoration: none;
+}
+.nav, li {
+	display: inline-flex;
+	justify-content: center;
+	list-style: none;
+	text-align: center;
+}
+a:hover {
+	color: white;
+	text-decoration: underline white;
+}
+#wrapper {
+	margin: 115px auto;
+	/*text-align: center;*/
+	width: 38%;
+}
+h1 {
+	text-align: center;
+	font-size: 2.2em;
+}
+.subhead{
+	border-top: 1px solid grey;
+	padding-top: 15px;
+}
+#ingredient {
+	background-color: #e3e3e3;
+	padding: 10px 35px;
+}
+.lists > li{
+	text-align: left;
+	display: list-item;
+	list-style: square;
+	line-height: 2.1em;
+}
+#list-bold {
+	font-weight: bold;
+}
+img {
+	max-width: 100%;
+}
+#recipe1, #recipe2{
+	border-bottom: 4px solid gold;
+}
